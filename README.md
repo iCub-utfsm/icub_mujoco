@@ -16,8 +16,9 @@ iCubGenova03, iCubParis01, iCubLisboa01, iCubParis02, iCubNancy01
 ergoCubGazeboV1_1_minContacts ergoCubGazeboV1_minContacts
 ```
 # Requrements
+Tested on python 3.9
 ```
-pip install mujoco
+pip install mujoco open3D
 ```
 
 # Usage
@@ -28,7 +29,7 @@ cd icub_mujoco
 ```
 Generate model `$python generate.py <model_name>`
 ```
-python generate.py iCubGazeboV2_6
+python generate.py --model iCubGazeboV2_7
 ```
 
 # Test
